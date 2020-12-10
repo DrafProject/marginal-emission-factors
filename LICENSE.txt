@@ -1,3 +1,5 @@
+Copyright (c) 2020, Markus Fleschutz
+
 Attribution-NonCommercial 4.0 International
 
 =======================================================================
