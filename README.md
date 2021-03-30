@@ -1,10 +1,12 @@
 # marginal-emission-factors
 This directory provides updatable supplementary data to a journal paper which will be referenced here as soon as it is published.
 
+The time series were calculated in hourly resolution (`data/60min`), and were additionally converted to quarter-hourly resolution (`data/15min`).
+
 ## Data description
 | Column name   | Data type | Unit            | Description     |
 | ------------- |-----------| --------------- | ----------------|
-| T             | Integer   | Hour            | Hour of the year starting with `0`. |
+| T             | Integer   | Hour/Quarterhour| Hour/Quarterhour of the year starting with `0`. |
 | residual_load | Float     | MW_el           | Average residual national load. |
 | total_load    | Float     | MW_el           | Average total national load. |
 | marginal_fuel | String    | -               | Fuel type of marginal power plant. One of `lignite`, `coal`, `gas`, `gas_cc`, and `oil`. |
