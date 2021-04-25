@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/342183147.svg)](https://zenodo.org/badge/latestdoi/342183147)
+
 # marginal-emission-factors
 This directory provides updatable supplementary data to a journal paper which will be referenced here as soon as it is published.
 
@@ -19,4 +21,16 @@ The time series were calculated in hourly resolution (`data/60min`), and were ad
 Data is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 
 ## How to cite this data
-Coming soon.
+If you use this data, please cite [this Zenodo record](https://doi.org/10.5281/zenodo.4718362):
+```
+@software{markus_fleschutz_2021_4718362,
+  author       = {Markus Fleschutz},
+  title        = {DrafProject/marginal-emission-factors:},
+  month        = apr,
+  year         = 2021,
+  publisher    = {Zenodo},
+  version      = {v0.1},
+  doi          = {10.5281/zenodo.4718362},
+  url          = {https://doi.org/10.5281/zenodo.4718362}
+}
+```
