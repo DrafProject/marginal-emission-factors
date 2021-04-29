@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/342183147.svg)](https://zenodo.org/badge/latestdoi/342183147)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4718362.svg)](https://doi.org/10.5281/zenodo.4718362)
 
 # marginal-emission-factors
 This directory provides updatable supplementary data to a journal paper which will be referenced here as soon as it is published.
