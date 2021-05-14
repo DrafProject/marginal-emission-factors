@@ -1,7 +1,9 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4718362.svg)](https://doi.org/10.5281/zenodo.4718362)
+| Paper | Data |
+|-|-|
+| [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4718362.svg)](https://doi.org/10.5281/zenodo.4718362) | [![paper doi](https://img.shields.io/badge/DOI-10.1016/j.apenergy.2021.117040-blue.svg)](https://doi.org/10.1016/j.apenergy.2021.117040) |
 
 # marginal-emission-factors
-This directory provides updatable supplementary data to a journal paper which will be referenced here as soon as it is published.
+This directory provides updatable supplementary data to the journal paper [Fleschutz et al. (2021)](https://doi.org/10.1016/j.apenergy.2021.117040).
 
 The time series were calculated in hourly resolution (`data/60min`), and were additionally converted to quarter-hourly resolution (`data/15min`).
 
