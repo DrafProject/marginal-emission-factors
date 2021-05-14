@@ -1,6 +1,6 @@
 | Paper | Data |
 |-|-|
-| [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4718362.svg)](https://doi.org/10.5281/zenodo.4718362) | [![paper doi](https://img.shields.io/badge/DOI-10.1016/j.apenergy.2021.117040-blue.svg)](https://doi.org/10.1016/j.apenergy.2021.117040) |
+| [![paper doi](https://img.shields.io/badge/DOI-10.1016/j.apenergy.2021.117040-blue.svg)](https://doi.org/10.1016/j.apenergy.2021.117040) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4718362.svg)](https://doi.org/10.5281/zenodo.4718362) |
 
 # marginal-emission-factors
 This directory provides updatable supplementary data to the journal paper [Fleschutz et al. (2021)](https://doi.org/10.1016/j.apenergy.2021.117040).
@@ -23,16 +23,4 @@ The time series were calculated in hourly resolution (`data/60min`), and were ad
 Data is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 
 ## How to cite this data
-If you use this data, please cite [this Zenodo record](https://doi.org/10.5281/zenodo.4718362):
-```
-@software{markus_fleschutz_2021_4718362,
-  author       = {Markus Fleschutz},
-  title        = {DrafProject/marginal-emission-factors:},
-  month        = apr,
-  year         = 2021,
-  publisher    = {Zenodo},
-  version      = {v0.1},
-  doi          = {10.5281/zenodo.4718362},
-  url          = {https://doi.org/10.5281/zenodo.4718362}
-}
-```
+If you use this data, please consider citing the open access journal paper [Fleschutz et al. (2021)](https://doi.org/10.1016/j.apenergy.2021.117040).
