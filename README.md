@@ -19,6 +19,33 @@ The time series were calculated in hourly resolution (`data/60min`), and were ad
 | MEFs          | Float     | kg_CO2eq/MWh_el | Marginal emission factors. I.e. the carbon emission intensity of electricity generation of the marginal power plant. |
 | XEFs          | Float     | kg_CO2eq/MWh_el | Average electricity grid mix emission factors. |
 
+## Timezones
+
+The data is in local standard time i.e. ignoring daylight saving time:
+
+| Country | UTC offset | Time zone |
+| ------- | ---------- | -------- |
+| AT | UTC+1:00 | Europe/Vienna |
+| BE | UTC+1:00 | Europe/Brussels |
+| CZ | UTC+1:00 | Europe/Prague |
+| DE | UTC+1:00 | Europe/Berlin |
+| DK | UTC+1:00 | Europe/Copenhagen |
+| ES | UTC+1:00 | Europe/Madrid |
+| FI | UTC+2:00 | Europe/Helsinki |
+| FR | UTC+1:00 | Europe/Paris |
+| GB | UTC+0:00 | Europe/London |
+| GR | UTC+2:00 | Europe/Athens |
+| HU | UTC+1:00 | Europe/Budapest |
+| IE | UTC+0:00 | Europe/Dublin |
+| IT | UTC+1:00 | Europe/Rome |
+| LT | UTC+2:00 | Europe/Vilnius |
+| NL | UTC+1:00 | Europe/Amsterdam |
+| PL | UTC+1:00 | Europe/Warsaw |
+| PT | UTC+0:00 | Europe/Lisbon |
+| RO | UTC+2:00 | Europe/Bucharest |
+| RS | UTC+1:00 | Europe/Belgrade |
+| SI | UTC+1:00 | Europe/Ljubljana |
+
 ## License
 Data is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 
