@@ -1,13 +1,17 @@
-| Paper | Data |
-|-|-|
-| [![paper doi](https://img.shields.io/badge/DOI-10.1016/j.apenergy.2021.117040-blue.svg)](https://doi.org/10.1016/j.apenergy.2021.117040) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4718362.svg)](https://doi.org/10.5281/zenodo.4718362) |
+| Tool | Paper | Data |
+|-|-|-|
+| [DrafProject/elmada](https://github.com/DrafProject/elmada) | [![paper doi](https://img.shields.io/badge/DOI-10.1016/j.apenergy.2021.117040-blue.svg)](https://doi.org/10.1016/j.apenergy.2021.117040) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4718362.svg)](https://doi.org/10.5281/zenodo.4718362) |
 
 # marginal-emission-factors
+
 This directory provides updatable supplementary data to the journal paper [Fleschutz et al. (2021)](https://doi.org/10.1016/j.apenergy.2021.117040).
+
+The data was calculated using the tool [DrafProject/elmada](https://github.com/DrafProject/elmada), see [make_MEF_data.ipynb](make_MEF_data.ipynb).
 
 The time series were calculated in hourly resolution (`data/60min`), and were additionally converted to quarter-hourly resolution (`data/15min`).
 
 ## Data description
+
 | Column name   | Data type | Unit            | Description     |
 | ------------- |-----------| --------------- | ----------------|
 | T             | Integer   | Hour/Quarterhour| Hour/Quarterhour of the year starting with `0`. |
@@ -19,9 +23,12 @@ The time series were calculated in hourly resolution (`data/60min`), and were ad
 | MEFs          | Float     | kg_CO2eq/MWh_el | Marginal emission factors. I.e. the carbon emission intensity of electricity generation of the marginal power plant. |
 | XEFs          | Float     | kg_CO2eq/MWh_el | Average electricity grid mix emission factors. |
 
-## Timezones
+### Time zones
 
-The data is in local standard time i.e. ignoring daylight saving time:
+The data is in local time since the [Draf Project](https://github.com/DrafProject) focuses on the modeling of individual energy hubs.
+Standard time is used i.e. daylight saving time is ignored.
+
+The time zones are:
 
 | Country | UTC offset | Time zone |
 | ------- | ---------- | -------- |
@@ -47,7 +54,9 @@ The data is in local standard time i.e. ignoring daylight saving time:
 | SI | UTC+1:00 | Europe/Ljubljana |
 
 ## License
+
 Data is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 
 ## How to cite this data
+
 If you use this data, please consider citing the open access journal paper [Fleschutz et al. (2021)](https://doi.org/10.1016/j.apenergy.2021.117040).
